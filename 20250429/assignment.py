@@ -140,3 +140,56 @@ print(n>>2)  #10을 반으로 나눈 후 다시 반으로 나눈 값인 2 가 �
 
 #6049
 
+#a =input().split(" ")
+#a1,a2=int(a[0]),int(a[1])
+
+#if a1 == a2:
+#    print("True")
+
+#else:
+#    print("False")
+
+#6050
+
+#a =input().split(" ")
+#a1,a2=int(a[0]),int(a[1])
+
+#if a1<= a2:
+#   print("True")
+
+#else:
+#    print("False")
+
+
+#6051
+#a=input().split(" ")
+
+#a1,a2 =int(a[0]),int(a[1])
+
+#if a1!=a2:
+#    print("True")
+
+#else :
+#    print("False")
+
+
+
+#6052
+
+#a =input()
+#a=int(a)
+
+#if a == 0 :
+# print("False")
+#else:
+# print(True)
+
+
+#6053 (멘토님께 질문하기 bool 타입 )
+
+a =bool(int(input()))
+
+if a == False:
+    print ( not a)
+else:
+   print ( a)
