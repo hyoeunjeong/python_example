@@ -185,11 +185,11 @@ print(n>>2)  #10을 반으로 나눈 후 다시 반으로 나눈 값인 2 가 �
 # print(True)
 
 
-#6053 (멘토님께 질문하기 bool 타입 )
+#6053 (멘토님께 질문하기(bool 타입 )
 
-a =bool(int(input()))
+#a =bool(int(input()))
 
-if a == False:
-    print ( not a)
-else:
-   print ( a)
+#if a == False:
+#    print ( not a)
+#else:
+#   print ( a)
