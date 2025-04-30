@@ -116,3 +116,55 @@ else :
 
  #elif로 마무리 해도 가능 하지만 만약 참이 아닌경우 거짓이 나왔을때 처리가 어려움
  #가능은 하지만 (이도저도 아닐떄)힘듬---> 요구사항에 따라 달라지긴한다다
+
+
+ #a,b,c =input().split(" ")
+#a,b,c=int(a),int(b),int(c)
+
+#if a==b==c: #모두 같을때  
+#    print( 10000+a*100)
+
+#elif a ==b or a==c or c==b: #두개만 같으때
+   
+#   if a ==b: 
+#    print(1000+a*1000)
+#   elif a==c:
+#     print(1000+a*100)
+#   else:
+#    print(1000+b*100)
+
+
+#else: #모두 다를때
+
+ #   print(max(a,b,c)*100)
+
+#강사님 시범 (max 안쓴 버전)
+#중첩 if문 
+#a,b,c=input().split()
+#a,b,c =int(a),int(b),int(c)
+
+#if a==b==c:
+#    price =10000+a*1000
+
+#같은 눈 2개일 경우
+#elif a ==b:
+#    price =1000 + a*100
+#elif a ==c:
+#    price =1000 + a*100
+#elif b ==c:
+    #price =1000 + a*100
+
+#else:
+#    price =0 #이도저도 아닌경우 (위에처 참이 아니라면 문제가 발생한다.)
+#혹시 모를 오류를 대비하여서 초기화 해주는 것
+
+
+#모두 다른 눈일때 최댓값 찾기기
+#if a!=b and b !=c and a!=c:
+#    temp =a
+#    if b>temp:
+#        temp =b
+#    if c>temp:
+#        temp =c
+#    price =temp *100
+#print(f"상금:{price}원원")
