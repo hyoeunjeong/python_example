@@ -54,7 +54,7 @@
 #text = input().split('-')
 #year,month,day = int(text[0]),int(text[1]),int(text[2])
 
-##45 월의 일수 
+## 월의 일수 
 
 #if month == '1,3,5,7,8,10,12':
 #    day <=31
@@ -78,20 +78,20 @@
 
 
 ##47:문자열 압축
-print("문자를 입력하시오")
-text =input()
-compress = ""##결과 저장할 변수
-count_number =1 ##무조건 1개부터 시작
-for ch in range(1,len(text)) :
-    if text[ch] == text[ch-1]:
-        count_number +=1
-    else:
-        compress +=text[ch -1] +str(count_number)
-        count_number =1
-        
-compress += text [-1]+str(count_number)
+#print("문자를 입력하시오")
+#text =input()
+#compress = ""##결과 저장할 변수
+#count_number =1 ##무조건 1개부터 시작
+#for ch in range(1,len(text)) :
+#    if text[ch] == text[ch-1]:
+#        count_number +=1
+#    else:
+#        compress +=text[ch -1] +str(count_number)
+#        count_number =1
+#
+#compress += text [-1]+str(count_number)
 
-print(f"압축된 문자열 :{compress}")
+#print(f"압축된 문자열 :{compress}")
 
 ###48 :팰린드롬 검사
 #print("문자를 입력하시오")
@@ -102,6 +102,18 @@ print(f"압축된 문자열 :{compress}")
 #    print(f"'{text}'은 팰린드롬이 아닙니다.")
 
 ##49 :간단한 암호화 
+#print("문자열을 입력하세요:")
+#text = input().upper()  # 대문자로 변환
+
+#result = ""
+#for ch in text:
+#  if ch.isalpha():  # 알파벳일 때만 처리
+#        shifted = (ord(ch) - ord('A') + 3) % 26 + ord('A')
+#        result += chr(shifted)
+#    else:
+#        result += ch  # 알파벳이 아니면 그대로 추가
+
+#print("암호화:", result)
 
 
 
