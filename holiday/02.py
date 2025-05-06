@@ -79,9 +79,9 @@
 
 
 ##17:참/ 거짓 (bool)
-#number =input()
-#number1 =bool(number)
-#print( number1)
+number =input()
+
+print(bool(number))
 
 
 

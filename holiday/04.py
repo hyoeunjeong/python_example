@@ -41,7 +41,13 @@
 
 
 ##33: 논리 연산 테이블
+#a = input("첫 번째 불리언 값(True & False): ") == "True"
+#b = input("두 번째 불리언 값(True & False): ") == "True" ##true 아니면 false 
 
+#print(f"{a} AND {b} = {a and b}")
+#print(f"{a} OR {b} = {a or b}")
+#print(f"NOT {a} = {not a}")
+#print(f"NOT {b} = {not b}")
 
 
 ###34 할인계산기
@@ -146,9 +152,18 @@
 ##39 :자릿수 합계
 
 #print("양의 정수를 입력하시오") 
-#number =int(input())
+#number =input()
+#sum_number =sum(int(digit) for digit in number)
+#print(f"자리수 합계 : {sum_number}")
 
-#number = str(number)
+## 자리수 헙 계산하는 부분
+#sum()== 괄호아늬 수 더하는 것
+#for digit in number:
+#number는 문자열이기 때문에
+#for digit in number는 
+# 문자열 안의 **각 문자(각 자릿수)**를 하나씩 순차적으로 처리함.
+
+
 
 
 

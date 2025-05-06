@@ -78,8 +78,20 @@
 
 
 ##47:문자열 압축
-#print("문자를 입력하시오")
+print("문자를 입력하시오")
+text =input()
+compress = ""##결과 저장할 변수
+count_number =1 ##무조건 1개부터 시작
+for ch in range(1,len(text)) :
+    if text[ch] == text[ch-1]:
+        count_number +=1
+    else:
+        compress +=text[ch -1] +str(count_number)
+        count_number =1
+        
+compress += text [-1]+str(count_number)
 
+print(f"압축된 문자열 :{compress}")
 
 ###48 :팰린드롬 검사
 #print("문자를 입력하시오")
