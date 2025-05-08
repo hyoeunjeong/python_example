@@ -79,9 +79,9 @@
 
 
 ##17:참/ 거짓 (bool)
-number =input()
+#number =input()
 
-print(bool(number))
+#print(bool(number))
 
 
 
@@ -110,10 +110,11 @@ print(bool(number))
 #print("단위를 입력하시오")
 #b =input()
 
-
 #if b =='c':
 #  f= a*9/5 +32
 #  print(f"{a}°C는{f}°F입니다.")
-#else :
+#elif :
 # c= (a -32)*5/9
 # print(f"{b}°C는{c}°F입니다.")
+#else :
+#print("잘못 입력했습니다")
