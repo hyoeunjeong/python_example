@@ -167,9 +167,8 @@
 #average = total/count
 
 #print(average)
-14번
 
-14번
+
 #print("문자열을 입력하시오")
 #str_1 = input().split()
 #str_2 = str(str_1[0])
